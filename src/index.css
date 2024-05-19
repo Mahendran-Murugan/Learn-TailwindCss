@@ -10,4 +10,13 @@
     .card {
         @apply flex items-center justify-center w-[300px] h-[100px] bg-monstor-green border-2 border-red-400 shadow-lg;
     }
+
+    .icons {
+        @apply relative flex items-center justify-center h-12 w-12 my-2 mx-auto shadow-lg bg-gray-700 text-green-500 hover:bg-green-600 hover:text-white rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+    }
+
+    .tooltip {
+        @apply absolute w-auto p-2 m-2 min-w-max left-20 rounded-md shadow-md text-white bg-gray-900 text-sm font-bold transition-all duration-100 scale-0 origin-left;
+        ;
+    }
 }
