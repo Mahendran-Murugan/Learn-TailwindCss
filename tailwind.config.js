@@ -8,6 +8,10 @@ export default {
     extend: {
       colors: {
         "monstor-green": "#00FF00"
+      },
+      fontFamily:{
+        'pm':"Permanent\\ Marker",
+        'poppins':"Poppins"
       }
     },
   },
