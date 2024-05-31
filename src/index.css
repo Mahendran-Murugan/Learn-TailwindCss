@@ -11,6 +11,20 @@
     font-family: 'Poppins';
 }
 
+@layer utilities {
+    .circle {
+        @apply relative flex justify-center items-center h-screen;
+    }
+
+    .circle::before {
+        @apply content-[''] absolute bg-red-600 h-[200px] w-[200px] rounded-full translate-x-[-120px] translate-y-[-70px];
+    }
+
+    .circle::after {
+        @apply content-[''] absolute bg-green-600 h-[200px] w-[200px] rounded-full translate-x-[120px] translate-y-[70px];
+    }
+}
+
 @layer components {
     .card {
         @apply flex items-center justify-center w-[300px] h-[100px] bg-monstor-green border-2 border-red-400 shadow-lg;
