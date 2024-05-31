@@ -22,6 +22,5 @@
 
     .tooltip {
         @apply absolute w-auto p-2 m-2 min-w-max left-20 rounded-md shadow-md text-white bg-gray-900 text-sm font-bold transition-all duration-100 scale-0 origin-left;
-        ;
     }
 }
